@@ -1,0 +1,474 @@
+﻿<html lang="ru">
+   <head>
+      <meta charset="utf-8">
+      <title> GTA5HOST - Hosting GTA5 servera za igre (RAGE:MP) | GTA5HOST - Hosting GTA5 servera igara (RAGE:MP)</title>
+      <meta name="description" content=" GTA5HOST - Hosting GTA5 servera igara (RAGE:MP)">
+      <meta name="keywords" content="balkan samp">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="../css?family=Poppins:300,400,500,600,700">
+      <link href="../assets/css/login-2.css" rel="stylesheet" type="text/css">
+      <link href="../assets/css/plugins.bundle.css" rel="stylesheet" type="text/css">
+      <link href="../assets/css/prismjs.bundle.css" rel="stylesheet" type="text/css">
+      <link href="../assets/css/style.bundle.css" rel="stylesheet" type="text/css">
+      <link rel="shortcut icon" href="../favicon.ico">
+   </head>
+   
+   
+   
+   
+   
+   
+   
+   
+   <body id="kt_body" class="header-fixed header-mobile-fixed subheader-enabled page-loading">
+      <div class="d-flex flex-column flex-root">
+         <div class="login login-2 login-signin-on d-flex flex-column flex-column-fluid bg-white position-relative overflow-hidden" id="kt_login">
+            <div class="login-header py-10 flex-column-auto">
+            </div>
+            <div class="login-body d-flex flex-column-fluid align-items-stretch justify-content-center">
+                
+                
+                
+                
+						
+				
+                
+                
+               <div class="container row">
+                   
+                   
+                  <div class="col-lg-6 d-flex align-items-center">
+                      
+                      
+                      
+                      
+                      
+                      
+                     <div class="login-form login-signin">
+                        <form class="form w-xxl-550px rounded-lg p-20" novalidate="novalidate" id="kt_login_signin_form" method="POST">
+                            <center><a href="../index.html">
+						<img alt="Logo" src="../application/public/img/logo.png" class="h-35px">
+						</a></center><br>
+                           <div class="form-group">
+                              <label class="font-size-h6 font-weight-bolder text-dark">E-Mail</label>
+                              <input class="form-control form-control-solid h-auto p-6 rounded-lg" type="text" name="email" placeholder="Vaša Email Adresa">
+                           </div>
+                           <div class="form-group">
+                              <div class="d-flex justify-content-between mt-n5">
+                                 <label class="font-size-h6 font-weight-bolder text-dark pt-5">Lozinka</label>
+                                 <a href="javascript:;" class="text-primary font-size-h6 font-weight-bolder text-hover-primary pt-5" id="kt_login_forgot">Zaboravili ste šifru?</a>
+                              </div>
+                              <input class="form-control form-control-solid h-auto p-6 rounded-lg" type="password" name="password" placeholder="Unesite svoju lozinku">
+                           </div>
+                           <div class="card card-body" style="margin-bottom: 1rem;padding: 1rem;">
+                              <center>
+                                 <div class="g-recaptcha" data-sitekey="6LcMmeAZAAAAAM5rHVjFe3BM9o2mqKGYPr_Vilnc" id="recaptcha1"></div>
+                              </center>
+                           </div>
+                           <div class="pb-lg-0 pb-5">
+                              <div class="btn-group btn-block" role="group">
+                                 <button type="submit" class="btn btn-primary btn-block font-weight-bolder font-size-h6">Login</button>
+                                 
+                              </div>
+                           </div>
+                           <hr>
+                           <center>
+                              <span class="text-muted font-weight-bold font-size-h4">Još uvijek nemate račun?<br>
+                              <a href="javascript:;" id="kt_login_signup" class="text-primary font-weight-bolder">Kreirajte nalog</a></span>
+                           </center>
+                        </form>
+                     </div>
+                     <div class="login-form login-signup">
+                        <form class="form w-xxl-550px rounded-lg p-20" novalidate="novalidate" id="kt_login_signup_form" method="GET">
+                            
+                            <center><a href="/index.html">
+						<img alt="Logo" src="../application/public/img/logo.png" class="h-35px">
+						</a></center><br>
+                            
+                            
+                            
+                          <!-- <div class="form-group">
+                              <input class="form-control form-control-solid h-auto p-6 rounded-lg font-size-h6" type="text" id="ref" name="ref" disabled placeholder=" Без приглашения">
+                           </div>-->
+                           <div class="form-group">
+                              <input class="form-control form-control-solid h-auto p-6 rounded-lg font-size-h6" type="text" id="firstname" name="firstname" placeholder="Vaše Ime">
+                           </div>
+                           <div class="form-group">
+                              <input class="form-control form-control-solid h-auto p-6 rounded-lg font-size-h6" type="text" id="lastname" name="lastname" placeholder="Vaše Prezime">
+                           </div>
+                           <div class="form-group">
+                              <input class="form-control form-control-solid h-auto p-6 rounded-lg font-size-h6" type="text" id="email" name="email" placeholder="Vaša Email Adresa">
+                           </div>
+                           <div class="form-group m-form__group">
+                              <div class="row">
+                                 <div class="col">
+                                    <input class="form-control form-control-solid h-auto p-6 rounded-lg font-size-h6" type="password" id="password" name="password" placeholder="Unesite lozinku">
+                                 </div>
+                                 <div class="col">
+                                    <input class="form-control form-control-solid h-auto p-6 rounded-lg font-size-h6" type="password" id="password2" name="password2" placeholder="Ponovi lozinku">
+                                 </div>
+                              </div>
+                           </div>
+                           <input type="hidden" name="ref" id="ref" value="">
+                           <div class="card card-body" style="margin-bottom: 1rem;padding: 1rem;">
+                              <center>
+                                 <div class="g-recaptcha" data-sitekey="6LcMmeAZAAAAAM5rHVjFe3BM9o2mqKGYPr_Vilnc" id="recaptcha2"></div>
+                              </center>
+                           </div>
+                           <div class="form-group d-flex flex-wrap pb-lg-0 pb-3">
+                              <div class="btn-group btn-block" role="group">
+                                 <button type="submit" class="btn btn-primary btn-block font-weight-bolder font-size-h6">Kreirajte nalog</button>
+                                 <button type="button" id="kt_login_signup_cancel" class="btn btn-outline-primary"><i class="flaticon2-reply-1 icon-x2"></i></button>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                     <div class="login-form login-forgot">
+                        <form class="form w-xxl-550px rounded-lg p-20" novalidate="novalidate" id="kt_login_forgot_form" method="POST">
+                           <div class="form-group">
+                              <input class="form-control form-control-solid h-auto p-6 rounded-lg font-size-h6" id="email" name="email" placeholder="Unesite svoju e-poštu">
+                           </div>
+                           <div class="card card-body" style="margin-bottom: 1rem;padding: 1rem;">
+                              <center>
+                                 <div class="g-recaptcha" data-sitekey="6LcMmeAZAAAAAM5rHVjFe3BM9o2mqKGYPr_Vilnc" id="recaptcha3"></div>
+                              </center>
+                           </div>
+                           <div class="form-group d-flex flex-wrap pb-lg-0">
+                              <div class="btn-group btn-block" role="group">
+                                 <button type="submit" class="btn btn-primary btn-block font-weight-bolder font-size-h6">Vrati lozinku</button>
+                                 <button type="button" id="kt_login_forgot_cancel" class="btn btn-outline-primary"><i class="flaticon2-reply-1 icon-x2"></i></button>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 bgi-size-contain bgi-no-repeat bgi-position-y-center bgi-position-x-center min-h-150px mt-10 m-md-0 offcanvas-mobile" style="background-image: url(../application/public/img/hostinpl56.png)"></div>
+               </div>
+            </div>
+            <div class="login-footer py-10 flex-column-auto">
+               <div class="container d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-between">
+                  <div class="font-size-h6 font-weight-bolder order-2 order-md-1 py-2 py-md-0">
+                     
+                     <a href="../index.html" target="_blank" class="text-dark-50 text-hover-primary"> GTA5HOST - Hosting GTA5 servera igara (RAGE:MP)</a>
+                  </div>
+                  <div class="font-size-h5 font-weight-bolder order-1 order-md-2 py-2 py-md-0">
+                   
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--begin::Modal-->
+      <div class="modal fade" id="hostin_supports" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                
+                
+                <br><center><a href="../index.html">
+						<img alt="Logo" src="../application/public/img/logo.png" class="h-35px">
+						</a></center><br>
+                
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Povratne informacije</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <i aria-hidden="true" class="ki ki-close"></i>
+                  </button>
+               </div>
+               <div class="modal-body">
+                   
+                  <form id="sendForm" method="POST" style="padding:0px; margin:0px;">
+                      
+                     <div class="form-group m-form__group">
+                        <input class="form-control m-input" type="text" id="firstname" name="firstname" placeholder="Unesite svoje ime..">
+                     </div>
+                     <div class="form-group m-form__group">
+                        <input class="form-control m-input" id="lastname" name="lastname" placeholder="Unesite svoje prezime..">
+                     </div>
+                     <div class="form-group m-form__group">
+                        <input class="form-control m-input" type="email" id="email" name="email" placeholder="Unesite svoju e-poštu..">
+                     </div>
+                     <div class="form-group form-md-line-input">
+                        <select class="form-control" id="subject" name="subject" size="1" aria-required="true" aria-invalid="false" aria-describedby="delivery-error">
+                           <option value="Pitanje">Pitanje</option>
+                           <option value="Problemi sa serverom">Problemi sa serverom</option>
+                           <option value="Problemi sa računom">Problemi sa računom</option>
+                           <option value="Saradnja">Saradnja</option>
+                        </select>
+                     </div>
+                     <div class="form-group form-md-line-input">
+                        <textarea class="form-control" id="msg" name="msg" rows="3" placeholder="Poruka..."></textarea>
+                     </div>
+                     <div class="recaptcha">
+                        <center>
+                           <div class="g-recaptcha" data-sitekey="6LcMmeAZAAAAAM5rHVjFe3BM9o2mqKGYPr_Vilnc" id="recaptcha4"></div>
+                        </center>
+                     </div>
+               </form></div>
+               <div class="modal-footer">
+               <button type="button" class="btn btn-light-primary font-weight-bold" data-dismiss="modal">Otkaži</button>
+               <button type="submit" class="btn btn-primary font-weight-bold">Pošalji</button>
+               </div>
+               </form>
+            </div>
+         </div>
+      </div>
+      <!--end::Modal-->
+      <script src="../assets/js/plugins.bundle.js"></script>
+      <script src="../assets/js/prismjs.bundle.js"></script>
+      <script src="../assets/js/scripts.bundle.js"></script>
+      <script src="../application/public/js/jquery.form.min.js"></script>
+      <script src="../application/public/js/main.js"></script>
+      <script src="../assets/js/fullcalendar.bundle.js"></script>
+      <script src="../recaptcha/api.js?onload=recaptha&render=explicit" async="" defer=""></script>
+   </body>
+</html>
+<script>
+   // Class Definition
+   var KTLogin = function() {
+       var _login;
+   
+       var _showForm = function(form) {
+           var cls = 'login-' + form + '-on';
+           var form = 'kt_login_' + form + '_form';
+   
+           _login.removeClass('login-forgot-on');
+           _login.removeClass('login-signin-on');
+           _login.removeClass('login-signup-on');
+   
+           _login.addClass(cls);
+   
+           KTUtil.animateClass(KTUtil.getById(form), 'animate__animated animate__backInUp');
+       }
+   
+       var _handleSignInForm = function() {
+           // Handle forgot button
+           $('#kt_login_forgot').on('click', function (e) {
+               e.preventDefault();
+               _showForm('forgot');
+           });
+   
+           // Handle signup
+           $('#kt_login_signup').on('click', function (e) {
+               e.preventDefault();
+               _showForm('signup');
+           });
+       }
+   
+       var _handleSignUpForm = function(e) {
+           var form = KTUtil.getById('kt_login_signup_form');
+   
+           // Handle cancel button
+           $('#kt_login_signup_cancel').on('click', function (e) {
+               e.preventDefault();
+   
+               _showForm('signin');
+           });
+       }
+   
+       var _handleForgotForm = function(e) {
+           // Handle cancel button
+           $('#kt_login_forgot_cancel').on('click', function (e) {
+               e.preventDefault();
+   
+               _showForm('signin');
+           });
+       }
+   
+       // Public Functions
+       return {
+           // public functions
+           init: function() {
+               _login = $('#kt_login');
+   
+               _handleSignInForm();
+               _handleSignUpForm();
+               _handleForgotForm();
+           }
+       };
+   }();
+   
+   // Class Initialization
+   jQuery(document).ready(function() {
+       KTLogin.init();
+   });
+   
+   	var captcha_login, captcha_register, captcha_restore, captcha_infobox;	
+       var recaptha = function() {	
+   		captcha_login = grecaptcha.render('recaptcha1', {
+   			'sitekey' : '6LcMmeAZAAAAAM5rHVjFe3BM9o2mqKGYPr_Vilnc',
+   			'theme' : 'light'
+   		});		
+   		captcha_register = grecaptcha.render('recaptcha2', {
+   			'sitekey' : '6LcMmeAZAAAAAM5rHVjFe3BM9o2mqKGYPr_Vilnc',
+   		    'theme' : 'light'
+   		});
+   		captcha_restore = grecaptcha.render('recaptcha3', {
+   			'sitekey' : '6LcMmeAZAAAAAM5rHVjFe3BM9o2mqKGYPr_Vilnc',
+   			'theme' : 'light'
+   		});
+   		captcha_infobox = grecaptcha.render('recaptcha4', {
+   			'sitekey' : '6LcMmeAZAAAAAM5rHVjFe3BM9o2mqKGYPr_Vilnc',
+   			'theme' : 'light'
+   		});		
+   	};		
+   			 
+   	$('#sendForm').ajaxForm({ 
+   	    url: '/common/loginheader/ajax_infobox',
+   	    dataType: 'text',
+   	    success: function(data) {
+   	        console.log(data);
+   	        data = $.parseJSON(data);
+   	        switch(data.status) {
+   				case 'error':
+   					toastr.error(data.error);
+   					$('button[type=submit]').prop('disabled', false);
+   					grecaptcha.reset(captcha_infobox);
+   					break;
+   				case 'success':
+   					toastr.success(data.success);
+   					setTimeout("redirect('/account/login')", 1500);
+   					break;
+   			}
+   		},
+   	    beforeSubmit: function(arr, $form, options) {
+   			$('button[type=submit]').prop('disabled', true);
+   		}
+   	});
+   
+   	$('#kt_login_signin_form').ajaxForm({ 
+   	    url: '/account/login/ajax',
+   	    dataType: 'text',
+   	    success: function(data) {
+   			console.log(data);
+   			data = $.parseJSON(data);
+   			switch(data.status) {
+   				case 'error':
+   					toastr.error(data.error);
+   					grecaptcha.reset(captcha_login);
+   					$('button[type=submit]').prop('disabled', false);
+   					break;
+   				case 'success':
+   					toastr.success(data.success);
+   					setTimeout("redirect('/')", 1500);
+   					break;
+   			}
+   		},
+   		beforeSubmit: function(arr, $form, options) {
+   			$('button[type=submit]').prop('disabled', true);
+   		}
+   	});
+   	
+   	$('#kt_login_signup_form').ajaxForm({ 
+   	    url: '/common/loginheader/ajax',
+   	    dataType: 'text',
+   	    success: function(data) {
+   			console.log(data);
+   			data = $.parseJSON(data);
+   			switch(data.status) {
+   				case 'error':
+   					toastr.error(data.error);
+   					grecaptcha.reset(captcha_register);
+   					$('button[type=submit]').prop('disabled', false);
+   					break;
+   				case 'success':
+   					toastr.success(data.success);
+   					if(data.user_activate){
+   						setTimeout("redirect('/account/login/complete')", 1500);
+   					}else{
+   						setTimeout("redirect('/account/login')", 1500);
+   					}
+   					break;
+   			}
+   		},
+   		beforeSubmit: function(arr, $form, options) {
+   			$('button[type=submit]').prop('disabled', true);
+   		}
+   	});
+   	
+   	$('#kt_login_forgot_form').ajaxForm({ 
+   	    url: '/account/restore/ajax',
+   	    dataType: 'text',
+   	    success: function(data) {
+   			console.log(data);
+   			data = $.parseJSON(data);
+   			switch(data.status) {
+   				case 'error':
+   					toastr.error(data.error);
+   					$('button[type=submit]').prop('disabled', false);
+   					grecaptcha.reset(captcha_restore);
+   					break;
+   				case 'success':
+   					toastr.success(data.success);
+   					setTimeout("redirect('/account/login')", 1500);
+   					break;
+   			}
+   		},
+   		beforeSubmit: function(arr, $form, options) {
+   			$('button[type=submit]').prop('disabled', true);
+   		}
+   	});
+</script>
+<script src="../js/api/openapi.js" type="text/javascript"></script>
+<script>
+   VK.init({
+       apiId: 7   });
+   
+   function authInfo(response) {
+       if(response.session) {
+           $.ajax({ 
+               url: "/account/login/vk",
+               type: "POST",
+               data: {auth: true, response: response},
+               success: function (data) {
+   				console.log(data);
+   				data = $.parseJSON(data);
+   				switch(data.status) {
+   					case 'auth_error':                        
+   					toastr.error(data.auth_error);                           
+   					break;
+   					case 'success':
+   					toastr.info(data.success);
+   					setTimeout("redirect('/')", 1500);
+   					break;
+   				}
+               }
+           });
+       }
+   }
+</script>
+ 
+ 
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(69635500, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="../watch/69635500" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<script>
+   toastr.options = {
+	  "closeButton": true,
+	  "debug": false,
+	  "newestOnTop": false,
+	  "progressBar": true,
+	  "positionClass": "toast-top-right",
+	  "preventDuplicates": false,
+	  "onclick": null,
+	  "showDuration": "300",
+	  "hideDuration": "1000",
+	  "timeOut": "3500",
+	  "extendedTimeOut": "3000",
+	  "showEasing": "swing",
+	  "hideEasing": "linear",
+	  "showMethod": "fadeIn",
+	  "hideMethod": "fadeOut"   
+	};
+</script>
